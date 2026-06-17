@@ -2,6 +2,11 @@
 Thumbs.db
 node_modules/
 dist/
+
+# Publish only the built CV PDF.
+cv/*
+!cv/cv_CIALDEA.pdf
+
 *.aux
 *.log
 *.out
